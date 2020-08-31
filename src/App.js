@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./pages/About";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
-import Search from "./pages/Search";
 import SingleCocktail from "./pages/SingleCocktail";
 import Navbar from "./components/Navbar";
 
@@ -22,9 +21,6 @@ export default function App() {
         </Route>
         <Route exact path="/about">
           <About />
-        </Route>
-        <Route exact path="/search">
-          <Search />
         </Route>
         <Route exact path="/cocktail/:id">
           <SingleCocktail />

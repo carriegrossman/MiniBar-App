@@ -8,12 +8,12 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-center">
-        <img src={logo} alt="mini bar logo" className="logo" />
+        <img src={logo} alt="mini bar logo" className="logo"/>
         <ul className="nav-links">
           <li>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
-            <Link to="/search">Search</Link>
+            {/* <Link to="/search">Search</Link> */}
           </li>
         </ul>
       </div>

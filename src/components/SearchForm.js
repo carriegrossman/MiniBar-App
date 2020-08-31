@@ -20,8 +20,9 @@ export default function SearchForm({ setSearchTerm }) {
       <h2 className="section-title">Search Cocktails</h2>
         <form action="" className="form search-form" onSubmit={handleSubmit}>
           <div className="form-control">
-          <label htmlFor="name">Search Your Favorite Cocktail </label>
+          <label htmlFor="name">Pick Your Poison </label>
             <input
+              placeholder="Liquor Choice"
               type="text"
               name="name"
               id="name"
