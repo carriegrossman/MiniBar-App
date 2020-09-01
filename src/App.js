@@ -7,11 +7,14 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./pages/About";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
+import Random from "./pages/Random";
 import SingleCocktail from "./pages/SingleCocktail";
 import Navbar from "./components/Navbar";
 
 
+
 export default function App() {
+
   return (
     <Router>
       <Navbar />
@@ -21,6 +24,9 @@ export default function App() {
         </Route>
         <Route exact path="/about">
           <About />
+        </Route>
+        <Route exact path="/random">
+          <Random />
         </Route>
         <Route exact path="/cocktail/:id">
           <SingleCocktail />

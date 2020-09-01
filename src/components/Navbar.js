@@ -13,7 +13,7 @@ export default function Navbar() {
           <li>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
-            {/* <Link to="/search">Search</Link> */}
+            <Link to="/random">Random</Link>
           </li>
         </ul>
       </div>

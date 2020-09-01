@@ -26,14 +26,24 @@ export default function SingleCocktail() {
             strIngredient2,
             strIngredient3,
             strIngredient4,
-            strIngredient5
+            strIngredient5,
+            strIngredient6,
+            strIngredient7,
+            strIngredient8,
+            strIngredient9,
+            strIngredient10,
           } = data.drinks[0];
           const ingredients = [
             strIngredient1,
             strIngredient2,
             strIngredient3,
             strIngredient4,
-            strIngredient5
+            strIngredient5,
+            strIngredient6,
+            strIngredient7,
+            strIngredient8,
+            strIngredient9,
+            strIngredient10,
           ];
           const newCocktail = {
             name,
@@ -77,18 +87,18 @@ export default function SingleCocktail() {
         <div className="drink">
           <img src={image} alt={name} />
           <div className="drink-info">
-            <p>name : {name}</p>
-            <p>category : {category}</p>
-            <p>type : {info}</p>
-            <p>glass : {glass}</p>
-            <p>instructions : <div>{instructions}</div></p>
-            <ul>
-              <p>ingredients :{" "}
+            <p>Name : {name}</p>
+            <p>Category : {category}</p>
+            <p>Type : {info}</p>
+            <p>Glass : {glass}</p>
+            <p>Directions : <div>{instructions}</div></p>
+              <p>Ingredients :{" "}
+              <ul>
               {ingredients.map((item, index) => {
                 return item ? <li key={index}>{item}</li> : null;
-              })}
+              })} 
+              </ul>
               </p>
-            </ul>
           </div>
         </div>
       </section>
