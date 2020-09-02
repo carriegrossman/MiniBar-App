@@ -64,6 +64,7 @@ a {
 }
 img {
   width: 100%;
+  max-width: fit-content;
   display: block;
 }
 .loading {
@@ -267,6 +268,7 @@ img {
 .section {
   padding: 4rem 0;
 }
+
 .section-title {
   font-size: 30px;
   text-transform: capitalize;
@@ -280,7 +282,7 @@ img {
   margin: 0 auto;
   max-width: var(--fullWidth);
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(370.8px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   column-gap: 1.8rem;
   row-gap: 1.8rem;
 }
@@ -369,6 +371,7 @@ img {
 }
 .drink img {
   border-radius: var(--mainBorderRadius);
+
 }
 .drink p {
   font-weight: bold;

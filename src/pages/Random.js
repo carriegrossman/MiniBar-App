@@ -60,9 +60,10 @@ export default function Random() {
         </Link>
         </Banner>
       </Hero>
-      <div className="section main-random">
+      <div className="main-random">
       
       <CocktailList cocktails={cocktails} loading={loading} />
+      
       </div>
     </main>
   );
