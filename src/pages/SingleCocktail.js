@@ -6,6 +6,7 @@ export default function SingleCocktail() {
   const [loading, setloading] = useState(false);
   const [Cocktail, setCocktail] = useState(null);
 
+
  useEffect(() => {
     setloading(true);
     async function getCocktail() {
@@ -52,7 +53,7 @@ export default function SingleCocktail() {
             info,
             glass,
             instructions,
-            ingredients
+            ingredients,
           };
           setCocktail(newCocktail);
         } else {
@@ -76,7 +77,7 @@ export default function SingleCocktail() {
       info,
       glass,
       instructions,
-      ingredients
+      ingredients,
     } = Cocktail;
     return (
       <section className="section cocktail-section">
@@ -90,10 +91,10 @@ export default function SingleCocktail() {
             <p>Name : {name}</p>
             <p>Category : {category}</p>
             <p>Type : {info}</p>
-            <p>Glass : {glass}</p>
+            <p>Serve in : {glass}</p>
             <p>Directions : <div>{instructions}</div></p>
-              <p>Ingredients :{" "}
-              <ul>
+            <p>Ingredients :{" "}
+              <ul className="drink-list">
               {ingredients.map((item, index) => {
                 return item ? <li key={index}>{item}</li> : null;
               })} 

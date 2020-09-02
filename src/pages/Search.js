@@ -5,7 +5,7 @@ import SearchForm from "../components/SearchForm";
 
 export default function Seach() {
   const [loading, setLoading] = useState(false);
-  const [searchTerm, setSearchTerm] = useState("vodka");
+  const [searchTerm, setSearchTerm] = useState("tequila");
   const [cocktails, setCocktails] = useState([]);
 
   useEffect(() => {

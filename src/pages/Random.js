@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from "react";
 import CocktailList from "../components/CocktailList";
 import { Link } from "react-router-dom";
+import Hero from "../components/Hero";
+import Banner from "../components/Banner";
 
 export default function Random() {
   const [loading, setLoading] = useState(false);
@@ -49,10 +51,17 @@ export default function Random() {
   
   return (
     <main >
-      <div className="section main-random">
-      <Link  to="/random" onClick={() => setCount(count + 1)} className="btn btn-primary">
-         Shuffle the Cocktails
+        <Hero>
+        <Banner
+          title="Shuffle it up!"
+        >
+        <Link  to="/random" onClick={() => setCount(count + 1)} className="btn btn-primary">
+         shuffle the cocktails
         </Link>
+        </Banner>
+      </Hero>
+      <div className="section main-random">
+      
       <CocktailList cocktails={cocktails} loading={loading} />
       </div>
     </main>

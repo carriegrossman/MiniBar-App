@@ -1,11 +1,14 @@
 import React, {useEffect, useState} from "react";
 import CocktailsList from "../components/CocktailList";
 import SearchForm from "../components/SearchForm";
+import Hero from "../components/Hero";
+import Banner from "../components/Banner";
+import { Link } from "react-router-dom";
 
 
 export default function Seach() {
   const [loading, setLoading] = useState(false);
-  const [searchTerm, setSearchTerm] = useState("vodka");
+  const [searchTerm, setSearchTerm] = useState("tequila");
   const [cocktails, setCocktails] = useState([]);
 
   useEffect(() => {
@@ -48,8 +51,22 @@ export default function Seach() {
 
   return (
     <main>
-      <SearchForm setSearchTerm={setSearchTerm} />
-      <CocktailsList loading={loading} cocktails={cocktails} />
+       <Hero>
+        <Banner
+          title="Cocktails 24/7"
+          subtitle="Find Something New"
+        >
+          <Link to="/random" className="btn-primary">
+            Random Cocktails
+          </Link>
+          
+        </Banner>
+      </Hero>
+      
+      <SearchForm setSearchTerm={setSearchTerm}  />
+
+       
+      <CocktailsList cocktails={cocktails} loading={loading} />
     </main>
   );
 }
