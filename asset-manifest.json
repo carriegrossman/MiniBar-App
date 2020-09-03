@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MiniBar-App/static/css/main.93e2510a.chunk.css",
+    "main.js": "/MiniBar-App/static/js/main.7f66d855.chunk.js",
+    "main.js.map": "/MiniBar-App/static/js/main.7f66d855.chunk.js.map",
+    "runtime-main.js": "/MiniBar-App/static/js/runtime-main.d86f2f00.js",
+    "runtime-main.js.map": "/MiniBar-App/static/js/runtime-main.d86f2f00.js.map",
+    "static/js/2.07a666ac.chunk.js": "/MiniBar-App/static/js/2.07a666ac.chunk.js",
+    "static/js/2.07a666ac.chunk.js.map": "/MiniBar-App/static/js/2.07a666ac.chunk.js.map",
+    "index.html": "/MiniBar-App/index.html",
+    "precache-manifest.d92a758657d4ff50c6bf911e55257766.js": "/MiniBar-App/precache-manifest.d92a758657d4ff50c6bf911e55257766.js",
+    "service-worker.js": "/MiniBar-App/service-worker.js",
+    "static/css/main.93e2510a.chunk.css.map": "/MiniBar-App/static/css/main.93e2510a.chunk.css.map",
+    "static/js/2.07a666ac.chunk.js.LICENSE.txt": "/MiniBar-App/static/js/2.07a666ac.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/MiniBar-App/static/media/cocktailbaby.d6b4f7a8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d86f2f00.js",
+    "static/js/2.07a666ac.chunk.js",
+    "static/css/main.93e2510a.chunk.css",
+    "static/js/main.7f66d855.chunk.js"
+  ]
+}
