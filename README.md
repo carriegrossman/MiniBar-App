@@ -5,14 +5,13 @@ I have used [The Cocktail DB API](https://www.thecocktaildb.com/api.php) to fetc
 ### Functionality to be added:
 There is still a lot of work to do on this baby. Some stuff I want to implement are 
  1. ~~Add Search functionality~~ Search functionality added!
- 2.   Add Random function/page.. Random function and page added!
+ 2. ~~Add Random function/page~~ Random function and page added!
  3.   Add ingredients filter!
  4.   Always more room for refactoring!
 
 # App Components: 
 - React Native 
 - React-Router-Dom 
-- Hooks
 - Cocktail DB API
 
 ## Available Scripts
