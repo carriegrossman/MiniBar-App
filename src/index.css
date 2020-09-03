@@ -149,8 +149,6 @@ img {
   align-items: center;
   border-bottom: 2px solid #79cdd3;
   box-shadow: var(--lightShadow);
-  padding-left: 16px;
-  padding-right: 16px;
 }
 .nav-center {
   display: flex;
@@ -411,14 +409,13 @@ img {
     padding-top: 0;
   }
   .main-random .cocktails-center{
-    margin-left: 100px;
+    margin-left: 50px;
+     
   }
-
-
 }
 @media screen and (min-width: 980px) {
   .root, .navbar .main-random .cocktails-center{
-margin: 0 auto;
+  margin: 0 auto;
      
   }}
 
