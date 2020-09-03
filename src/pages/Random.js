@@ -61,7 +61,7 @@ export default function Random() {
         </Banner>
       </Hero>
       <div className="main-random">
-      
+        
       <CocktailList cocktails={cocktails} loading={loading} />
       
       </div>
