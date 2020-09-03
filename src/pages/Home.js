@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export default function Seach() {
   const [loading, setLoading] = useState(false);
-  const [searchTerm, setSearchTerm] = useState("tequila");
+  const [searchTerm, setSearchTerm] = useState("m");
   const [cocktails, setCocktails] = useState([]);
 
   useEffect(() => {
@@ -16,7 +16,7 @@ export default function Seach() {
     async function getDrinks() {
       try {
         const response = await fetch(
-          `https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=${searchTerm}`
+          `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${searchTerm}`
         );
         const data = await response.json();
 
@@ -53,7 +53,7 @@ export default function Seach() {
     <main>
        <Hero>
         <Banner
-          title="Cocktails 24/7"
+          title="Mini Bar"
           subtitle="Find Something New"
         >
           <Link to="/random" className="btn-primary">

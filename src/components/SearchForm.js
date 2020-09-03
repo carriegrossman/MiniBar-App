@@ -22,7 +22,7 @@ export default function SearchForm({ setSearchTerm }) {
           <div className="form-control">
           <label htmlFor="name">Pick Your Poison </label>
             <input
-              placeholder="Favorite Ingredient"
+              placeholder="Favorite Cocktail"
               type="text"
               name="name"
               id="name"

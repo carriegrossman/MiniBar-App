@@ -144,25 +144,26 @@ img {
 .navbar {
   width: 100%;
   background: #fff;
-  height: 5rem;
+  height: 96px;
   display: flex;
   align-items: center;
   border-bottom: 2px solid #79cdd3;
   box-shadow: var(--lightShadow);
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .nav-center {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: var(--smallWidth);
   margin: 0 auto;
-  max-width: var(--fullWidth);
+  max-width: 100%;
 }
 .nav-links {
   display: flex;
-  align-items: center;
-  max-width: var(--fullWidth);
+  align-items: flex-end;
+  max-width: 40rem;
 
 }
 .nav-links a {
@@ -174,7 +175,6 @@ img {
   letter-spacing: 2px;
   font-size: 1.2rem;
   padding: 0.25rem 0.5rem;
-  transition: var(--mainTransition);
 }
 .nav-links a:hover {
   color: #79cdd3;
@@ -189,7 +189,6 @@ img {
 .defaultHero {
   min-height: calc(40vh - 40px);
   background: url("./images/cocktailbaby.jpg") center/cover no-repeat;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -412,19 +411,24 @@ img {
     padding-top: 0;
   }
   .main-random .cocktails-center{
-    margin-left: unset;
-     
+    margin-left: 100px;
   }
+
+  .main-random{
+    margin-left: 200px
+  }
+  
+
 }
 @media screen and (min-width: 980px) {
-  .main-random .cocktails-center{
-margin: 0 auto;
+  .root, .navbar .main-random .cocktails-center{
+    margin-left: 100px;
      
   }}
 
   @media screen and (max-width: 900px) {
     .main-random .cocktails-center{
-  margin: 0 auto;
+      margin-left: 100px;
        
     }
 }

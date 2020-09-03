@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="nav-center">
         <img src={logo} alt="mini bar logo" className="logo"/>
         <ul className="nav-links">
-          <li>
+          <li >
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/random">Random</Link>

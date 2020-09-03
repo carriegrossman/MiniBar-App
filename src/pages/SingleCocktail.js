@@ -92,14 +92,14 @@ export default function SingleCocktail() {
             <p>Category : {category}</p>
             <p>Type : {info}</p>
             <p>Serve in : {glass}</p>
-            <p>Directions : <div>{instructions}</div></p>
-            <p>Ingredients :{" "}
+            <p>Directions : {instructions}</p>
+            <div>Ingredients :{" "}
               <ul className="drink-list">
               {ingredients.map((item, index) => {
                 return item ? <li key={index}>{item}</li> : null;
               })} 
               </ul>
-              </p>
+              </div>
           </div>
         </div>
       </section>
