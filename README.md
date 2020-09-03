@@ -3,7 +3,7 @@ MiniBar is a Cocktail Search App that let's you search for cocktails built with 
 I have used [The Cocktail DB API](https://www.thecocktaildb.com/api.php) to fetch the data that displays a plethora of drinks. The ingredients, instructions and an image are shown. And to manage the state of the application I have used react Hooks. 
 
 ### Functionality to be added:
-There is still a lot of work to do on this baby. Some stuff I want to implement are 
+There is still a lot of work to do. Some stuff I want to implement are 
  1. ~~Add Search functionality~~ Search functionality added!
  2. ~~Add Random function/page~~ Random function and page added!
  3.   Add ingredients filter!
