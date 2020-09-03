@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bbcc9d3494e7198acc712b47dda36727",
+    "revision": "b0544e26bf39241150b4235c2b085af2",
     "url": "/MiniBar-App/index.html"
   },
   {
-    "revision": "e61eee982974e92415ad",
-    "url": "/MiniBar-App/static/css/main.93e2510a.chunk.css"
+    "revision": "6c41fd23aeaeb22b43c2",
+    "url": "/MiniBar-App/static/css/main.53062c56.chunk.css"
   },
   {
     "revision": "432b25b2bd70647f25e5",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MiniBar-App/static/js/2.07a666ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e61eee982974e92415ad",
+    "revision": "6c41fd23aeaeb22b43c2",
     "url": "/MiniBar-App/static/js/main.7f66d855.chunk.js"
   },
   {
